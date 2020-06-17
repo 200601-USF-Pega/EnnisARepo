@@ -10,11 +10,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class EscapeRoomDAO_OnlineImplementation implements EscapeRoomDAO {
+
     ConnectionService connectionService = ConnectionService.getInstance();
 
-    public EscapeRoomDAO_OnlineImplementation() {
-
-    }
 
     @Override
     public List<EscapeRoom> getAllEscapeRooms() {
@@ -28,7 +26,7 @@ public class EscapeRoomDAO_OnlineImplementation implements EscapeRoomDAO {
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("EscapeRoom"),
+                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("RoomName"),
                         rs.getString("RoomDifficulty"));
                 escapeRoomList.add(escapeRoom);
             }
@@ -63,7 +61,7 @@ public class EscapeRoomDAO_OnlineImplementation implements EscapeRoomDAO {
 
             while (rs.next()) {
 
-                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("EscapeRoom"),
+                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("RoomName"),
                         rs.getString("RoomDifficulty"));
                 escapeRoomList.add(escapeRoom);
             }

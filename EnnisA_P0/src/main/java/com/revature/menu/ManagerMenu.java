@@ -1,8 +1,7 @@
 package com.revature.menu;
 
-import com.revature.DAO.EscapeRoomDAO_OnlineImplementation;
-import com.revature.DAO.UserDAO;
-import com.revature.DAO.UserDAO_OnlineImplementation;
+import com.revature.DAO.*;
+import com.revature.models.Reservation;
 
 import java.util.Scanner;
 
@@ -24,7 +23,7 @@ public class ManagerMenu implements IMenu {
 
         try {
 
-            managerDAO = new ManagerDAO_OnlineImpl();
+            managerDAO = new ManagerDAO_OnlineImplementation();
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -40,18 +39,17 @@ public class ManagerMenu implements IMenu {
             System.out.println("For a list of all upcoming reservations, please press [4]");
             System.out.println("To assign a game master to a reservation, please press [5]");
             System.out.println("To remove a game master from a reservation, please press [6]");
-            System.out.println("To create a new reservation, please press [7]");
+            System.out.println("To create a new reservation, please press [6]");
+            System.out.println("To remove a reservation, please press [7]");
             System.out.println("To return to the main menu, please press [0]");
 
 //initializing variable
             int reservationDate;
-            int accountId;
-            int roomId;
-            int invoiceNumber;
-            int managerId;
-            String familyName;
-            int gameMasterId;
-            String passcode;
+            String gameMasterName;
+            String roomName;
+            String managerName;
+            String playerGroup;
+
 
             int nextMenu = sc.nextInt();
 
@@ -74,53 +72,48 @@ public class ManagerMenu implements IMenu {
                     break;
 
                 case 5:
-                    managerDAO.addGameMasterToReservation();
+                    //managerDAO.addGameMasterToReservation();
                     break;
+
 
                 case 6:
-                    managerDAO.removeGameMasterFromReservation();
-                    break;
+                    managerDAO.getAllReservationsNoSout();
 
-                case 7:
-                    managerDAO.getAllReservations();
-
-                    System.out.println("Please enter the invoice number: ");
-                    invoiceNumber = sc.nextInt();
-
-                    System.out.println("Please select an escape room");
-                    System.out.println("[1] for Framed");
-                    System.out.println("[2] for Rum Hangover");
-                    System.out.println("[3] for Ward 21");
-                    System.out.println("[4] for Smoke and Mirrors");
-                    roomId = sc.nextInt();
+                    System.out.println("Please enter an escape room from the list: Framed, Rum Hangover, Ward 21 or Smoke and Mirrors");
+                    roomName = sc.next();
 
                     System.out.println("Please enter the date of the reservation in this format (DDMMYYYY): ");
                     reservationDate = sc.nextInt();
 
-                    System.out.println("Please select a game master: ");
-                    System.out.println("[11] for Buddy");
-                    System.out.println("[12] for Friend");
-                    System.out.println("[13] for Pal");
-                    System.out.println("[14] for Steve");
-                    gameMasterId = sc.nextInt();
+                    System.out.println("Please enter a select an available game master: Buddy, Friend, Pal or Steve");
+                    gameMasterName = sc.next();
 
-                    System.out.println("Please enter your Manager ID: ");
-                    System.out.println("[1] for Aj, [2] for Jab");
-                    managerId = sc.nextInt();
+                    System.out.println("Please select a manager: Aj or Jab");
+                    managerName = sc.next();
 
-                    System.out.println("Please enter the account ID of the client: ");
-                    accountId = sc.nextInt();
+                    System.out.println("Please enter the group name of the client: ");
+                    playerGroup = sc.next();
 
-                    Reservation reservation = new Reservation(invoiceNumber, roomid, reservationDate, gameMasterId, managerId, accountId);
+                    Reservation reservation = new Reservation(roomName, reservationDate, gameMasterName, managerName, playerGroup);
                     System.out.println("Here are the details of your new escape room reservation: " + reservation.toString());
 
-                    reservationDAO.addReservation(reservation);
+                    managerDAO.addReservation(reservation);
 
+                    break;
+
+                case 7:
+
+                    managerDAO.getAllReservationsNoSout();
+
+                    System.out.println("Please enter the date of the reservation you would like to cancel, in this format (DDMMYYYY): ");
+                    reservationDate = sc.nextInt();
+
+                    managerDAO.removeReservation(reservationDate);
                     break;
 
                 case 0:
                     newMenu = menuFactory.getMenu("MainMenu");
-                    newMenu = menuStart();
+                    newMenu.menuStart();
                     break;
 
                 default:

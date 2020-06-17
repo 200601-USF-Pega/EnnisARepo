@@ -9,7 +9,7 @@ import java.io.ObjectInputStream;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EscapeRoomDAOImplementation {
+public class EscapeRoomDAOImplementation implements EscapeRoomDAO {
 
     List<EscapeRoom> escapeRoomList = new ArrayList<EscapeRoom>();
 
@@ -18,7 +18,7 @@ public class EscapeRoomDAOImplementation {
     public EscapeRoomDAOImplementation() throws IOException {
     }
 
-
+    @Override
     public List<EscapeRoom> getAllEscapeRooms() {
 
 
@@ -28,7 +28,7 @@ public class EscapeRoomDAOImplementation {
             System.out.println("Got the list");
             objectInputStream.close();
 
-            System.out.println("Currently are: " + escapeRoomList.size() + " Escape Rooms.");
+            System.out.println("There are: " + escapeRoomList.size() + " Escape Rooms.");
             for (EscapeRoom escapeRoom: escapeRoomList) {
 
                 System.out.println(escapeRoom.toString());
@@ -49,7 +49,7 @@ public class EscapeRoomDAOImplementation {
         return null;
 
     }
-
+    @Override
     public List<EscapeRoom> getAllEscapeRoomsNoSout() {
 
 
