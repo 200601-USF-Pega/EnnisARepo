@@ -8,4 +8,5 @@ public interface EscapeRoomDAO {
 
     public List<EscapeRoom> getAllEscapeRooms();
     public List<EscapeRoom> getAllEscapeRoomsNoSout();
-    }
+
+}

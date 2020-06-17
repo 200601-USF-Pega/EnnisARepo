@@ -13,6 +13,6 @@ public interface ManagerDAO {
     public List<Reservation> getAllReservationsNoSout();
     public boolean addReservation(Reservation reservation);
     public boolean updateReservation(int index);
-    public boolean removeReservation(int index);
+    public boolean removeReservation(int reservationId);
 
 }

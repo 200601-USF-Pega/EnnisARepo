@@ -65,6 +65,8 @@ public class UserMenu implements IMenu {
                     System.out.println("Please enter the new user's last name:");
                     lastName = sc.next();
 
+
+
                     User user = new User(userId, userName, passcode, firstName, lastName, familyId);
 
                     System.out.println("Added: " + user.toString());

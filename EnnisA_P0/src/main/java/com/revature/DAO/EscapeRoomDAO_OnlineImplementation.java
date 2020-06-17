@@ -26,12 +26,12 @@ public class EscapeRoomDAO_OnlineImplementation implements EscapeRoomDAO {
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("RoomName"),
-                        rs.getString("RoomDifficulty"));
+                EscapeRoom escapeRoom = new EscapeRoom(rs.getString("roomName"),
+                        rs.getString("roomDifficulty"));
                 escapeRoomList.add(escapeRoom);
             }
 
-            System.out.println("There are: " + escapeRoomList.size() + " EscapeRooms.");
+            System.out.println("There are: " + escapeRoomList.size() + " Escape Rooms.");
 
 
             for (EscapeRoom escapeRoom : escapeRoomList) {
@@ -50,7 +50,7 @@ public class EscapeRoomDAO_OnlineImplementation implements EscapeRoomDAO {
         return null;
     }
 
-
+    @Override
     public List<EscapeRoom> getAllEscapeRoomsNoSout() {
 
         List<EscapeRoom> escapeRoomList = new ArrayList<EscapeRoom> ();

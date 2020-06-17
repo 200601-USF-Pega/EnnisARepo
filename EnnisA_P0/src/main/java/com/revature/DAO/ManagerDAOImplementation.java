@@ -161,7 +161,7 @@ public class ManagerDAOImplementation implements ManagerDAO {
     }
 
     @Override
-    public boolean removeReservation(int reservationDate) {
+    public boolean removeReservation(int reservationId) {
 
         try {
             ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(filepath));
@@ -170,7 +170,7 @@ public class ManagerDAOImplementation implements ManagerDAO {
 
             for (Reservation reservation : reservationList) {
 
-                if (reservation.getReservationDate() == (reservationDate)) {
+                if (reservation.getReservationId() == (reservationId)) {
                     reservationList.remove(reservation);
                     ObjectOutputStream objectOutputStream = new ObjectOutputStream(new FileOutputStream(filepath));
                     System.out.println("Reservation removed! Please confirm details with your Game Masters and Players.");

@@ -5,6 +5,7 @@ import com.revature.models.Reservation;
 import com.revature.models.User;
 import com.revature.services.ConnectionService;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -102,7 +103,8 @@ public class ManagerDAO_OnlineImplementation implements ManagerDAO{
                         rs.getInt("reservationDate"),
                         rs.getString("gameMasterName"),
                         rs.getString("managerName"),
-                        rs.getString("playerGroup"));
+                        rs.getString("playerGroup"),
+                        rs.getInt("reservationId"));
                 reservationList.add(reservation);
             }
 
@@ -141,7 +143,8 @@ public class ManagerDAO_OnlineImplementation implements ManagerDAO{
                         rs.getInt("reservationDate"),
                         rs.getString("gameMasterName"),
                         rs.getString("managerName"),
-                        rs.getString("playerGroup"));
+                        rs.getString("playerGroup"),
+                        rs.getInt("reservationId"));
                 reservationList.add(reservation);
             }
             //LOGGER.info("Logged the list of reservations.");
@@ -174,9 +177,9 @@ public class ManagerDAO_OnlineImplementation implements ManagerDAO{
                 ps.setString(3, reservation.getGameMasterName());
                 ps.setString(4, reservation.getManagerName());
                 ps.setString(5, reservation.getPlayerGroup());
-                boolean didWork = ps.execute();
+                boolean success = ps.execute();
 
-                return didWork;
+                return success;
 
 
             } catch (SQLException e) {
@@ -201,27 +204,31 @@ public class ManagerDAO_OnlineImplementation implements ManagerDAO{
     }
 
     @Override
-    public boolean removeReservation(int index) {
-        try{
+    public boolean removeReservation(int reservationId) {
+
+        String sqlDelete = "DELETE FROM reservationlist WHERE reservationId = ?";
+
+        try {
             List<Reservation> reservationList = this.getAllReservationsNoSout();
-            Reservation reservation = reservationList.get(index - 1);
+            Reservation reservation = reservationList.get(reservationId - 1);
 
-            PreparedStatement ps = connectionService.getConnection().prepareStatement("DELETE FROM reservationlist as y WHERE y.roomName = ? " +
-                    "AND y.reservationDate = ? AND y.gameMasterName = ? AND y.managerName AND y.playerGroup = ?;");
-            ps.setString(1, reservation.getRoomName());
-            ps.setInt(2, reservation.getReservationDate());
-            ps.setString(3, reservation.getGameMasterName());
-            ps.setString(4, reservation.getManagerName());
-            ps.setString(5, reservation.getPlayerGroup());
-                boolean didWork = ps.execute();
+            PreparedStatement preparedStatement = connectionService.getConnection().prepareStatement(sqlDelete);
+            preparedStatement.setString(1, reservation.getRoomName());
+            preparedStatement.setInt(2, reservation.getReservationDate());
+            preparedStatement.setString(3, reservation.getGameMasterName());
+            preparedStatement.setString(4, reservation.getManagerName());
+            preparedStatement.setString(5, reservation.getPlayerGroup());
+            preparedStatement.setInt(6, reservation.getReservationId());
+            boolean success = preparedStatement.execute();
+
             System.out.println("The reservation has been deleted.");
+        return success;
+        } catch (Exception e) {
+            System.out.println("There is no reservation matching that ID.");
 
-            return didWork;
 
-        } catch(Exception e) {
-            System.out.println("No reservation matches what was entered.");
-
-            return false;
         }
+        return false;
+
     }
 }

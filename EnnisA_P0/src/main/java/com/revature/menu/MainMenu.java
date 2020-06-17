@@ -1,6 +1,10 @@
 package com.revature.menu;
 
+import com.revature.DAO.UserDAO_OnlineImplementation;
+import com.revature.models.User;
+
 import java.util.Scanner;
+import java.util.SortedMap;
 
 public class MainMenu  implements  IMenu {
 
@@ -20,7 +24,7 @@ public class MainMenu  implements  IMenu {
         while (true) {
             System.out.println("For User login press [1]");
             System.out.println("For Manager login press [2]");
-            System.out.println("If you are a new user login press [3]");
+            System.out.println("If you are a new user press [3]");
             System.out.println("Press [0] to exit the App");
 
             //Menu Switching
@@ -39,11 +43,51 @@ public class MainMenu  implements  IMenu {
                     break;
 
                 case 3:
-                    newMenu = menuFactory.getMenu("New User");
-                    newMenu.menuStart();
-                    break;
+                    UserDAO_OnlineImplementation userDAO = null;
 
-                case 0:
+                    try {
+                        userDAO = new UserDAO_OnlineImplementation();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+
+                    String userName;
+                    String firstName;
+                    String lastName;
+                    String passcode;
+                    int familyId;
+
+
+                        System.out.println("Welcome New User");
+                        System.out.println("Please create a username: ");
+                        userName = sc.next();
+
+                        System.out.println("Please enter your first name: ");
+                        firstName = sc.next();
+
+                        System.out.println("Please enter your last name: ");
+                        lastName = sc.next();
+
+                        System.out.println("Please create your password: ");
+                        passcode = sc.next();
+
+                        System.out.println("If you know your Escape Room family Id please enter it now, if not please enter 0");
+                        familyId = sc.nextInt();
+
+                        User user = new User(0, userName, firstName, lastName, passcode, familyId);
+
+                        System.out.println(user.toString());
+
+                        try {
+                            userDAO.addUser(user);
+                        }catch (Exception e){
+                            System.out.println("You have entered an invalid family ID, If you do not have a family ID please enter 0");
+                            continue;
+                        }
+                    System.out.println("New user has been created, please login to access our escape rooms");
+                    continue;
+
+                    case 0:
                     System.out.println("Exiting program...");
                     System.exit(0);
                     break;

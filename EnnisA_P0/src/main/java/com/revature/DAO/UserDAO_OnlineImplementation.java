@@ -103,14 +103,15 @@ public class UserDAO_OnlineImplementation implements UserDAO {
 
             try {
 
-                PreparedStatement ps = connectionService.getConnection().prepareStatement("INSERT INTO users (username, firstname, lastname, passcode) VALUES (?,?,?,?);");
+                PreparedStatement ps = connectionService.getConnection().prepareStatement("INSERT INTO users (username, firstname, lastname, passcode,familyid) VALUES (?,?,?,?,?);");
                 ps.setString(1, user.getUserName());
                 ps.setString(2, user.getFirstName());
                 ps.setString(3, user.getLastName());
                 ps.setString(4, user.getPasscode());
-                boolean didWork = ps.execute();
+                ps.setInt(5, user.getFamilyId());
+                boolean success = ps.execute();
 
-                return didWork;
+                return success;
 
 
             } catch (SQLException e) {

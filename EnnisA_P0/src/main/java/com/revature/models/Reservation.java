@@ -9,14 +9,16 @@ public class Reservation implements Serializable {
     String gameMasterName;
     String managerName;
     String playerGroup;
+    int reservationId;
 
-    public Reservation(String roomName, int reservationDate, String gameMasterName, String managerName, String playerGroup) {
+    public Reservation(String roomName, int reservationDate, String gameMasterName, String managerName, String playerGroup, int reservationId) {
 
         this.reservationDate = reservationDate;
         this.roomName = roomName;
         this.gameMasterName = gameMasterName;
         this.managerName = managerName;
         this.playerGroup = playerGroup;
+        this.reservationId = reservationId;
     }
 
     @Override
@@ -26,7 +28,8 @@ public class Reservation implements Serializable {
                 ", reservationDate='" + reservationDate + '\'' +
                 ", gameMasterName ='" + gameMasterName + '\'' +
                 ", managerName=' " + managerName + '\'' +
-                ", playerGroup='" + playerGroup + '\'' + '}';
+                ", playerGroup='" + playerGroup + '\'' +
+                ", reservationId='" + reservationId + '\'' + '}' ;
 
     }
 
@@ -68,5 +71,13 @@ public class Reservation implements Serializable {
 
     public void setPlayerGroup(String playerGroup) {
         this.playerGroup = playerGroup;
+    }
+
+    public int getReservationId() {
+        return reservationId;
+    }
+
+    public void setReservationId(int reservationId) {
+        this.reservationId = reservationId;
     }
 }
