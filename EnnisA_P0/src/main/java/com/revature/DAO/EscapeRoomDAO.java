@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EscapeRoomDAO {
 
-    public List<EscapeRoom> getAllEscapeRooms();
-    public List<EscapeRoom> getAllEscapeRoomsNoSout();
+    List<EscapeRoom> getAllEscapeRooms();
+    List<EscapeRoom> getAllEscapeRoomsNoSout();
 
 }

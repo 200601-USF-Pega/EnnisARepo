@@ -56,6 +56,7 @@ public class MainMenu  implements  IMenu {
                     String lastName;
                     String passcode;
                     int familyId;
+                    int validation;
 
 
                         System.out.println("Welcome New User");
@@ -71,8 +72,18 @@ public class MainMenu  implements  IMenu {
                         System.out.println("Please create your password: ");
                         passcode = sc.next();
 
+
+                    do {
                         System.out.println("If you know your Escape Room family Id please enter it now, if not please enter 0");
-                        familyId = sc.nextInt();
+                        while (!sc.hasNextInt()) {
+                            System.out.println("That's not a vaild Escape Room family ID! Family IDs range from 1-3");
+                            sc.next();
+                        }
+                        validation = sc.nextInt();
+                    } while (validation < 0 || validation > 3);
+                    System.out.println("Thank you! You will be added to Escape Room Family " + validation);
+                        //System.out.println("If you know your Escape Room family Id please enter it now, if not please enter 0");
+                        familyId = validation;
 
                         User user = new User(0, userName, firstName, lastName, passcode, familyId);
 

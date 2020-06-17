@@ -5,8 +5,11 @@ import com.revature.DAO.UserDAO_OnlineImplementation;
 import com.revature.models.User;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class UserMenu implements IMenu {
+
+    private static final Logger log = Logger.getLogger(MainMenu.class.getName());
 
     @Override
     public void menuStart() {
@@ -20,6 +23,7 @@ public class UserMenu implements IMenu {
         UserDAO_OnlineImplementation userDAO = null;
 
         try {
+            log.info("Created new User Data Access Object");
         userDAO = new UserDAO_OnlineImplementation();
         } catch (Exception e) {
             e.printStackTrace();

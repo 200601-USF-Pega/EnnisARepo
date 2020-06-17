@@ -7,12 +7,12 @@ import java.util.List;
 
 public interface ManagerDAO {
 
-    public List<GameMaster> getAllGameMasters();
-    public List<GameMaster> getAllGameMastersNoSout();
-    public List<Reservation> getAllReservations();
-    public List<Reservation> getAllReservationsNoSout();
-    public boolean addReservation(Reservation reservation);
-    public boolean updateReservation(int index);
-    public boolean removeReservation(int reservationId);
+    List<GameMaster> getAllGameMasters();
+    List<GameMaster> getAllGameMastersNoSout();
+    List<Reservation> getAllReservations();
+    List<Reservation> getAllReservationsNoSout();
+    boolean addReservation(Reservation reservation);
+    boolean updateReservation(int index);
+    boolean removeReservation(int reservationId);
 
 }

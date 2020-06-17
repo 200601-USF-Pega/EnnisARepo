@@ -3,10 +3,13 @@ package com.revature.menu;
 import com.revature.DAO.*;
 import com.revature.models.Reservation;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class ManagerMenu implements IMenu {
 
+private static final Logger log = Logger.getLogger(MainMenu.class.getName());
 
     @Override
     public void menuStart() {
@@ -25,7 +28,7 @@ public class ManagerMenu implements IMenu {
         String correctPassword = "ajisthebest";
 
         try {
-
+            log.info("Created new Manager Data Access Object");
             managerDAO = new ManagerDAO_OnlineImplementation();
         } catch (Exception e) {
             e.printStackTrace();
@@ -114,6 +117,7 @@ public class ManagerMenu implements IMenu {
 
                     managerDAO.getAllReservations();
 
+
                     System.out.println("Please enter the reservation ID of the reservation you would like to cancel: ");
                     reservationId = sc.nextInt();
 
@@ -132,7 +136,7 @@ public class ManagerMenu implements IMenu {
 
 
             }
-        }else {
+               }else {
             System.out.println("That is not the correct password, you will be returned to the main menu.");
             newMenu = menuFactory.getMenu("MainMenu");
             newMenu.menuStart();

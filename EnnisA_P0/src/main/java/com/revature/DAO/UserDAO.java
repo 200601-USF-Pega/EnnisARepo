@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface UserDAO {
 
-    public List<User> getAllUsers();
-    public List<User> getAllUsersNoSout();
-    public boolean addUser(User user);
+    List<User> getAllUsers();
+    List<User> getAllUsersNoSout();
+    boolean addUser(User user);
 
 }

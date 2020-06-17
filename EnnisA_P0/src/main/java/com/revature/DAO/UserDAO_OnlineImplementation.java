@@ -19,7 +19,7 @@ public class UserDAO_OnlineImplementation implements UserDAO {
     }
 
     @Override
-    public List<User> getAllUsers() {
+    public List<User> getAllUsers(){
         int index = 1;
 
         List<User> userList = new ArrayList<User>();
