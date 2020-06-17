@@ -76,7 +76,7 @@ public class MainMenu  implements  IMenu {
                     do {
                         System.out.println("If you know your Escape Room family Id please enter it now, if not please enter 0");
                         while (!sc.hasNextInt()) {
-                            System.out.println("That's not a vaild Escape Room family ID! Family IDs range from 1-3");
+                            System.out.println("That's not a valid Escape Room family ID! Family IDs range from 1-3");
                             sc.next();
                         }
                         validation = sc.nextInt();
