@@ -29,6 +29,8 @@ private static final Logger log = Logger.getLogger(MainMenu.class.getName());
 
         try {
             log.info("Created new Manager Data Access Object");
+
+
             managerDAO = new ManagerDAO_OnlineImplementation();
         } catch (Exception e) {
             e.printStackTrace();
@@ -44,14 +46,14 @@ private static final Logger log = Logger.getLogger(MainMenu.class.getName());
         System.out.println("What would you like to do?");
         while (true) {
 
-            System.out.println("For a list of all escape rooms, please press [1]");
-            System.out.println("For a list of all game masters, please press [2]");
-            System.out.println("For a list of all users, please press [3]");
-            System.out.println("For a list of all upcoming reservations, please press [4]");
+            //System.out.println("For a list of all escape rooms, please press [1]");
+            System.out.println("For a list of all game masters, please press [1]");
+           // System.out.println("For a list of all users, please press [3]");
+            System.out.println("For a list of all upcoming reservations, please press [2]");
             //System.out.println("To assign a game master to a reservation, please press [5]");
             //System.out.println("To remove a game master from a reservation, please press [6]");
-            System.out.println("To create a new reservation, please press [5]");
-            System.out.println("To remove a reservation, please press [6]");
+            System.out.println("To create a new reservation, please press [3]");
+            System.out.println("To remove a reservation, please press [4]");
             System.out.println("To return to the main menu, please press [0]");
 
 //initializing variable
@@ -67,19 +69,19 @@ private static final Logger log = Logger.getLogger(MainMenu.class.getName());
 
             switch (nextMenu) {
 
-                case 1:
-                    escapeRoomDAO.getAllEscapeRooms();
-                    break;
+              //  case 1:
+                   // escapeRoomDAO.getAllEscapeRooms();
+                   // break;
 
-                case 2:
+                case 1:
                     managerDAO.getAllGameMasters();
                     break;
 
-                case 3:
-                    userDAO.getAllUsers();
-                    break;
+               // case 3:
+                   // userDAO.getAllUsers();
+                    //break;
 
-                case 4:
+                case 2:
                     managerDAO.getAllReservations();
                     break;
 
@@ -88,7 +90,7 @@ private static final Logger log = Logger.getLogger(MainMenu.class.getName());
                 //break;
 
 
-                case 5:
+                case 3:
                     managerDAO.getAllReservationsNoSout();
 
                     System.out.println("Please enter an escape room from the list: Framed, Rum Hangover, Ward 21 or Smoke and Mirrors");
@@ -113,7 +115,7 @@ private static final Logger log = Logger.getLogger(MainMenu.class.getName());
 
                     break;
 
-                case 6:
+                case 4:
 
                     managerDAO.getAllReservations();
 

@@ -22,8 +22,8 @@ public class MainMenu  implements  IMenu {
         System.out.println("What would you like to do?");
         //repeating while loop for menu options
         while (true) {
-            System.out.println("For User login press [1]");
-            System.out.println("For Manager login press [2]");
+            System.out.println("For the Player menu press [1]");
+            System.out.println("For Manager menu press [2]");
             System.out.println("If you are a new user press [3]");
             System.out.println("Press [0] to exit the App");
 
@@ -95,7 +95,7 @@ public class MainMenu  implements  IMenu {
                             System.out.println("You have entered an invalid family ID, If you do not have a family ID please enter 0");
                             continue;
                         }
-                    System.out.println("New user has been created, please login to access our escape rooms");
+                    System.out.println("A NEW PLAYER HAS ARRIVED!!");
                     continue;
 
                     case 0:

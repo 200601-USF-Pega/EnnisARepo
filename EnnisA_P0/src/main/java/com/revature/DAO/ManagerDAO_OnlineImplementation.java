@@ -177,6 +177,7 @@ public class ManagerDAO_OnlineImplementation implements ManagerDAO{
                 ps.setString(3, reservation.getGameMasterName());
                 ps.setString(4, reservation.getManagerName());
                 ps.setString(5, reservation.getPlayerGroup());
+                ps.setInt(6, reservation.getReservationId());
                 boolean success = ps.execute();
 
                 return success;

@@ -2,19 +2,13 @@
 <Configuration status="INFO">
     <Appenders>
         <Console name="ConsoleAppender" target="SYSTEM_OUT">
-
-            <!--<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />-->
-
-            <PatternLayout pattern="" />
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
         </Console>
-        <File name="FileAppender" fileName="logging/EscapeRoom_application-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
+        <File name="FileAppender" fileName="application-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
             <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>
     <Loggers>
-        <Logger name="com.revature.log" level ="trace">
-
-        </Logger>
         <Root level="debug">
             <AppenderRef ref="ConsoleAppender" />
             <AppenderRef ref="FileAppender"/>

@@ -29,15 +29,15 @@ public class UserMenu implements IMenu {
             e.printStackTrace();
         }
 
-        System.out.println("Welcome User, what would you like to do?");
+        System.out.println("Welcome Player, what would you like to do?");
 
         while (true) {
 
-            System.out.println("For a list of escape rooms available, please press [1]");
-            System.out.println("To add a user to your account, please press [2]");
-            System.out.println("To reserve an escape room experience, please press [3]");
-            System.out.println("To check your current reservations, please press [4]");
-            System.out.println("To cancel a reservation, please press [5]");
+           // System.out.println("For a list of escape rooms available, please press [1]");
+            System.out.println("To add a user to your account, please press [1]");
+            //System.out.println("To reserve an escape room experience, please press [3]");
+           //System.out.println("To check your current reservations, please press [4]");
+            //System.out.println("To cancel a reservation, please press [5]");
             System.out.println("To return to the previous menu, please press [0]");
 
             //initializing variables
@@ -52,11 +52,11 @@ public class UserMenu implements IMenu {
             int nextMenu = sc.nextInt();
 
             switch (nextMenu) {
-                case 1:
-                    escapeRoomDAO.getAllEscapeRooms();
-                    break;
+                //case 1:
+                   // escapeRoomDAO.getAllEscapeRooms();
+                    //break;
 
-                case 2:
+                case 1:
                     System.out.println("Please enter the new user's username:");
                     userName = sc.next();
 
@@ -68,6 +68,9 @@ public class UserMenu implements IMenu {
 
                     System.out.println("Please enter the new user's last name:");
                     lastName = sc.next();
+
+                    System.out.println("Please enter your Escape Room Family Id");
+                    familyId = sc.nextInt();
 
 
 
