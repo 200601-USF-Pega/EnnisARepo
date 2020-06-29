@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Player System</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="webpage_admin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript">
+"use strict";
+ function dynInput(cbox) {
+  if (cbox.checked) {
+    var input = document.createElement("input");
+    input.type = "text";
+    var div = document.createElement("div");
+    div.id = cbox.name;
+    div.innerHTML = "Text to display for " + cbox.name;
+    div.appendChild(input);
+    document.getElementById("insertinputs").appendChild(div);
+  } else {
+    document.getElementById(cbox.name).remove();
+  }
+}
+
+
+
+
+
+
+function addGameMaster() {
+            console.log("adding gameMaster");
+                let gameMaster = {};
+                gameMaster.firstname = document.querySelector("#nfirstname").value;
+                gameMaster.lastname = document.querySelector("#nlastname").value;
+                gameMaster.managername = document.querySelector("#nmanagername").value;
+
+
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function() {
+                    if (this.readyState > 3) {
+                        document.querySelector("#nfirstname").value = "";
+                        document.querySelector("#nlastname").value = "";
+                        document.querySelector("#nmanagername").value = "";
+                        alert("Game Master added!");
+                    }
+                }
+                
+                req.open("POST", "http://localhost:10080/EnnisA_P1/service/gamemaster/add", true);
+                req.setRequestHeader('Content-Type', 'application/json');
+                req.send(JSON.stringify(gameMaster));
+                alert("Added Game Master!");
+    }
+
+
+
+function getAllGameMasters() {
+    var gameMaster = [];
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+            document.querySelectorAll("#gameMasterTable tbody tr")
+                .forEach(
+                    function(element) {
+                        element.remove();
+                    }
+            );
+            
+            gameMasters = JSON.parse(this.responseText);
+            let table = document.querySelector("#gameMasterTable tbody");
+
+            for (let i = 0; i < gameMasters.length; ++i) {
+                let row = table.insertRow(table.rows.length);
+
+                let indexCell = row.insertCell(0);
+                indexCell.innerHTML = (i + 1);
+
+                let firstnameCell = row.insertCell(1);
+                firstnameCell.innerHTML = gameMasters[i].firstname;
+
+                let lastnameCell = row.insertCell(2);
+                lastnameCell.innerHTML = gameMasters[i].lastname;
+
+                let managernameCell = row.insertCell(3);
+                managernameCell.innerHTML = gameMasters[i].managername;
+            
+
+
+            }
+        }
+    };
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/gamemaster/all", true);
+    xhttp.send();
+}
+
+
+function deleteUser(){
+
+let index = {};
+
+index.num = document.querySelector("#deleteUserIndex").value;
+
+console.log(index.indexNum);
+var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+        document.querySelector("#deleteUserIndex").value = "";
+    }
+
+
+    }
+
+console.log(index);
+
+xhttp.open("DELETE", "http://localhost:10080/EnnisA_P1/service/user", true);
+xhttp.setRequestHeader('Content-Type', 'application/json');
+xhttp.send(JSON.stringify(index));
+alert("Deleted User!");
+}
+
+function deleteReservation(){
+
+let index = {};
+
+index.num = document.querySelector("#deleteReservationIndex").value;
+
+console.log(index.indexNum);
+var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+        document.querySelector("#deleteReservationtIndex").value = "";
+    }
+
+
+    }
+
+console.log(index);
+
+xhttp.open("DELETE", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+xhttp.setRequestHeader('Content-Type', 'application/json');
+xhttp.send(JSON.stringify(index));
+alert("Deleted Reservation!");
+}
+
+function getAllUsers(){
+    var users = [];
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+            document.querySelectorAll("#userTable tbody tr")
+                .forEach(
+                    function(element) {
+                        element.remove();
+                    }
+            );
+            
+            users = JSON.parse(this.responseText);
+            let table = document.querySelector("#userTable tbody");
+
+            for (let i = 0; i < users.length; ++i) {
+                let row = table.insertRow(table.rows.length);
+
+                let indexCell = row.insertCell(0);
+                indexCell.innerHTML = (i + 1);
+
+                let usernameCell = row.insertCell(1);
+                usernameCell.innerHTML = users[i].userName;
+
+                let firstnameCell = row.insertCell(2);
+                firstnameCell.innerHTML = users[i].firstName;
+
+                let lastnameCell = row.insertCell(3);
+                lastnameCell.innerHTML = users[i].lastName;
+
+                let playergroupCell = row.insertCell(4);
+                playergroupCell.innerHTML = users[i].playerGroup;
+            
+
+            }
+        }
+    };
+
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/user", true);
+    xhttp.send();
+}
+
+function addUser() {
+            console.log("adding User");
+            
+                let user = {};
+                var isChecked = false;
+
+                user.userName = document.querySelector("#rusername").value;
+                console.log(user.userName);
+                user.firstName = document.querySelector("#rfirstname").value;
+                user.lastName = document.querySelector("#rlastname").value;
+                user.passcode = document.querySelector("#rpasscode").value;
+                user.familyID = document.querySelector("#rfamilyID").value;
+
+                console.log(user);
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function() {
+                    if (this.readyState > 3) {
+                        document.querySelector("#rusername").value = "";
+                        document.querySelector("#rfirstname").value = "";
+                        document.querySelector("#rlastname").value = "";
+                        document.querySelector("#rpasscode").value = "";
+                        document.querySelector("#rfamilyid").value = "";
+                        alert("User added!");
+                    }
+                }
+                
+                req.open("POST", "http://localhost:10080/EnnisA_P1/service/user", true);
+                req.setRequestHeader('Content-Type', 'application/json');
+                req.send(JSON.stringify(user));
+    }
+
+
+function addReservation(){
+
+    console.log("adding a new Reservation")
+
+
+    let reservation = {};
+
+    reservation.roomName = document.querySelector("#roomName").value;
+    reservation.reservationDate = document.querySelector("#reservationDate").value;
+    reservation.gameMaster = document.querySelector("#gameMaster").value;
+    reservation.managerName = document.querySelector("#managerName").value;
+    reservation.playerGroup = document.querySelector("#playerGroup").value;
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function(){
+        
+        if(this.readyState > 3){
+        document.querySelector("#roomName").value = "";
+        document.querySelector("#reservationDate").value = "";
+        document.querySelector("#gameMaster").value = "";
+        document.querySelector("#managerName").value = "";
+        document.querySelector("#playerGroup").value = "";
+        alert("Reservation added!");
+        }
+
+    }
+
+    req.open("POST", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.send(JSON.stringify(reservation));
+
+
+}
+
+function allReservations(){
+var reservations = [];
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+
+if(this.readyState == 4 && this.status > 199 && this.status < 300){
+    document.querySelectorAll("#reservationTable tbody tr")
+                .forEach(function(element) {
+                        element.remove();
+                    }
+                );
+
+                reservations = JSON.parse(this.responseText);
+                let table = document.querySelector("#reservationTable tbody");
+
+                for(let i = 0; i < reservations.length; i++){
+                    let row = table.insertRow(table.rows.length);
+
+                    let indexCell = row.insertCell(0);
+                    indexCell.innerHTML = (i + 1);
+
+                    let roomnameCell = row.insertCell(1);
+                    roomnameCell.innerHTML = reservations[i].roomName;
+
+                    let reservationdateCell = row.insertCell(2);
+                    reservationdateCell.innerHTML = reservations[i].reservationDate;
+
+                    let gamemasterCell = row.insertCell(3);
+                    gamemasterCell.innerHTML = reservations[i].gameMaster;
+
+                    let managerCell = row.insertCell(4);
+                    managerCell.innerHTML = reservations[i].managerName;
+
+                    let playergroupCell = row.insertCell(5);
+                    playergroupCell.innerHTML = reservations[i].playerGroup;
+
+                }
+        }
+    };
+
+
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/reservation/all", true);
+    xhttp.send();
+
+}
+
+
+function showUpdateReservation(){
+    var x = document.querySelector("#reservationUpdateForm");
+    console.log("Show Reservation Update Options")
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
+function updateReservation(){
+
+    console.log("adding a new Reservation")
+
+    let reservation = {};
+
+    reservation.roomName = document.querySelector("#uproomName").value;
+    reservation.reservationDate = document.querySelector("#upreservationDate").value;
+    reservation.gameMaster = document.querySelector("#upgameMaster").value;
+    reservation.manager = document.querySelector("#updatemanager").value;
+    reservation.playerGroup = document.querySelector("#updateplayerGroup").value;
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function(){
+        
+        if(this.readyState > 3){
+        document.querySelector("#uproomName").value = "";
+        document.querySelector("#upreservationDate").value = "";
+        document.querySelector("#upgameMaster").value = "";
+        document.querySelector("#upmanager").value = "";
+        document.querySelector("#upplayerGroup").value = "";
+        alert("Reservation Updated!");
+        }
+
+    }
+
+    req.open("PUT", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.send(JSON.stringify(reservation));
+
+
+}
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+
+    <div class="sticky-top topnav" id="Welcome">
+    <span>
+        <header>
+            <h1>Escape Room Reservation System</h1>
+            <h3>Welcome Player</h3>
+        </header>
+    </span>
+    </div>
+
+
+
+<!--            User Management-->
+            <div class="col-md-12">
+                <div class="Controls">
+                <h2 class="Management">Player Details</h2>
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="rdropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Player View Options
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="rdropdownMenuButton">
+                            <form method="get" action="/EnnisA_P1/user">
+                                <button type="button" class="dropdown-item" id="UserGetAll" onclick="getAllUsers()" data-toggle="modal" data-target="#allUser" onclick="getAllUsers()">Get a List of all Users</button>
+
+                            </form>
+                        </div>
+                    </div>
+
+<!--View All Users Modal-->
+<div class="modal" id="allUsers">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4>View All Users</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                    <table class="table table-bordered table-striped mb-0" id="userTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">UserName</th
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Family ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onClick="getAllUsers()" >Update</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--                    Modal For adding a new User.-->
+                    <div class="modal" id="addUserModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Add a new User</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <input type="text" name="rusername" id="rusername" placeholder="UserName"><br>
+                                        <input type="text" name="rfirstname" id="rfirstname" placeholder="First Name"><br>
+                                        <input type="text" name="rlastname" id="rlastname" placeholder="Last Name"><br>
+                                        <input type="text" name="rpasscode" id="rpasscode" placeholder="Password"><br>
+                                        <input type="number" name="rfamilyID" id="rfamilyID" placeholder="FamilyID"><br>
+                                        <input type="button" onClick="addUser()" value="Submit">
+                                    </div>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--            Reservation Management-->
+            <div class="col-md-12">
+            <div class="Controls">
+                <h2>Reservation Details</h2>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="ndropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Reservations
+                    </button>
+
+                    <div class="dropdown-menu" aria-labelledby="ndropdownMenuButton">
+                            <button type="button" name="getAllReservations" id="getAllReservations" class="dropdown-item" data-toggle="modal" data-target="#viewAllReservations" onclick="allReservation()" >Get a List of all Reservations</button>
+
+                    </div>
+
+                  
+                    
+
+<!--View All Reservations Modal-->
+                    <div class="modal" id="viewAllReservations">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4>All Reservations</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                                        <table class="table table-bordered table-striped mb-0" id="reservationTable">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Room Name</th>
+                                                    <th scope="col">Reservation Date</th>
+                                                    <th scope="col">Game Master</th>
+                                                    <th scope="col">Manager</th>
+                                                    <th scope="col">Player Group</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+        
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+    
+                                <div class="modal-footer">
+                                    <input type="button" class="btn btn-primary" onClick="allReservations()" value="update">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+<!--Add New Reservation Modal-->
+                    <div class="modal" id="newReservation">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4>New Reservation</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+    
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <input type="text" name="roomname" id="roomname" placeholder="Room Name"><br>
+                                        <input type="date" name="reservationDate" id="reservationDate" ><br>
+                                        <input type="text" name="gameMaster" id="gameMaster" placeholder="Game Master"><br>
+                                        <input type="text" name="manager" id="manager" placeholder="Manager"><br>
+                                        <input type="text" name="playerGroup" id="playerGroup" placeholder="Player Group"><br>
+                                        <input type="button" onClick="addReservation()" value="Submit">
+                                    </div>
+                                </div>
+    
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

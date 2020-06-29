@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manager page</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="webpage_admin.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript">
+"use strict";
+ function dynInput(cbox) {
+  if (cbox.checked) {
+    var input = document.createElement("input");
+    input.type = "text";
+    var div = document.createElement("div");
+    div.id = cbox.name;
+    div.innerHTML = "Text to display for " + cbox.name;
+    div.appendChild(input);
+    document.getElementById("insertinputs").appendChild(div);
+  } else {
+    document.getElementById(cbox.name).remove();
+  }
+}
+
+    const queryString = window.location.search;
+    console.log(queryString);
+
+    var urlParams = new URLSearchParams(queryString);
+
+    if(urlParams.get('username') == 'manager'){
+
+        if(urlParams.get('password') == 'ajisthebest'){
+
+        }else{
+            console.log("Non Admin Attempted Access!")
+            window.location = "http://localhost:10080/EnnisA_P1";
+        }
+
+    }else{
+        console.log("Non Admin Attempted Access!")
+        window.location = "http://localhost:10080/EnnisA_P1";
+    }
+
+
+
+
+
+
+
+
+function addGameMaster() {
+            console.log("adding gameMaster");
+                let gameMaster = {};
+                gameMaster.firstname = document.querySelector("#nfirstname").value;
+                gameMaster.lastname = document.querySelector("#nlastname").value;
+                gameMaster.managername = document.querySelector("#nmanagername").value;
+
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function() {
+                    if (this.readyState > 3) {
+                        document.querySelector("#nfirstname").value = "";
+                        document.querySelector("#nlastname").value = "";
+                        document.querySelector("#nmanagername").value = "";
+                        alert("GameMaster added!");
+                    }
+                }
+                
+                req.open("POST", "http://localhost:10080/EnnisA_P1/service/gameMaster/add", true);
+                req.setRequestHeader('Content-Type', 'application/json');
+                req.send(JSON.stringify(gameMaster));
+                alert("Added Game Master!");
+    }
+
+
+
+
+function getAllGameMasters() {
+    var gameMasters = [];
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+            document.querySelectorAll("#gameMasterTable tbody tr")
+                .forEach(
+                    function(element) {
+                        element.remove();
+                    }
+            );
+            
+            gameMasters = JSON.parse(this.responseText);
+            let table = document.querySelector("#gameMasterTable tbody");
+
+            for (let i = 0; i < gameMasters.length; ++i) {
+                let row = table.insertRow(table.rows.length);
+
+                let indexCell = row.insertCell(0);
+                indexCell.innerHTML = (i + 1);
+
+                let firstnameCell = row.insertCell(1);
+                firstnameCell.innerHTML = gameMasters[i].firstname;
+
+                let lastnameCell = row.insertCell(2);
+                lastnameCell.innerHTML = gameMasters[i].lastname;
+
+                let managernameCell = row.insertCell(3);
+                managernameCell.innerHTML = gameMasters[i].managername;
+            
+
+
+            }
+        }
+    };
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/gamemaster/all", true);
+    xhttp.send();
+}
+
+
+
+function deleteUser(){
+
+let index = {};
+
+index.num = document.querySelector("#deleteUserIndex").value;
+
+console.log(index.indexNum);
+var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+        document.querySelector("#deleteUserIndex").value = "";
+    }
+
+
+    }
+
+console.log(index);
+
+xhttp.open("DELETE", "http://localhost:10080/EnnisA_P1/service/user", true);
+xhttp.setRequestHeader('Content-Type', 'application/json');
+xhttp.send(JSON.stringify(index));
+alert("Deleted User!");
+}
+
+function deleteReservation(){
+
+let index = {};
+
+index.num = document.querySelector("#deleteReservationIndex").value;
+
+console.log(index.indexNum);
+var xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+        document.querySelector("#deleteReservationIndex").value = "";
+    }
+
+
+    }
+
+console.log(index);
+
+xhttp.open("DELETE", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+xhttp.setRequestHeader('Content-Type', 'application/json');
+xhttp.send(JSON.stringify(index));
+alert("Deleted Reservation!");
+}
+
+function getAllUsers(){
+    var users = [];
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status > 199 && this.status < 300) {
+            document.querySelectorAll("#userTable tbody tr")
+                .forEach(
+                    function(element) {
+                        element.remove();
+                    }
+            );
+            
+            users = JSON.parse(this.responseText);
+            let table = document.querySelector("#userTable tbody");
+
+            for (let i = 0; i < users.length; ++i) {
+                let row = table.insertRow(table.rows.length);
+
+                let indexCell = row.insertCell(0);
+                indexCell.innerHTML = (i + 1);
+
+                let usernameCell = row.insertCell(1);
+                usernameCell.innerHTML = users[i].userName;
+
+                let firstnameCell = row.insertCell(2);
+                firstnameCell.innerHTML = users[i].firstName;
+
+                let lastnameCell = row.insertCell(3);
+                lastnameCell.innerHTML = users[i].lastName;
+
+                let familyidCell = row.insertCell(4);
+                familyidCell.innerHTML = users[i].familyid;
+            
+
+            }
+        }
+    };
+
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/user/all", true);
+    xhttp.send();
+}
+
+function addUser() {
+            console.log("adding User");
+            
+                let user = {};
+                var isChecked = false;
+
+                user.userName = document.querySelector("#rusername").value;
+                console.log(user.userName);
+                user.firstName = document.querySelector("#rfirstname").value;
+                user.lastName = document.querySelector("#rlastname").value;
+                user.passcode = document.querySelector("#rpasscode").value;
+                user.familyid = document.querySelector("#rfamilyid").value;
+
+              
+                console.log(user);
+                var req = new XMLHttpRequest();
+                req.onreadystatechange = function() {
+                    if (this.readyState > 3) {
+                        document.querySelector("#rusername").value = "";
+                        document.querySelector("#rfirstname").value = "";
+                        document.querySelector("#rlastname").value = "";
+                        document.querySelector("#rpasscode").value = "";
+                        document.querySelector("#rfamilyid").value = "";
+                        alert("User added!");
+                    }
+                }
+                
+                req.open("POST", "http://localhost:10080/EnnisA_P1/service/user", true);
+                req.setRequestHeader('Content-Type', 'application/json');
+                req.send(JSON.stringify(user));
+    }
+
+
+function addReservation(){
+
+    console.log("adding a new Reservation")
+
+
+    let reservation = {};
+
+    reservation.roomName = document.querySelector("#roomname").value;
+    reservation.reservationDate = document.querySelector("#reservationdate").value;
+    reservation.gameMaster = document.querySelector("#gamemaster").value;
+    reservation.managerName = document.querySelector("#managername").value;
+    reservation.playerGroup = document.querySelector("#playergroup").value;
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function(){
+        
+        if(this.readyState > 3){
+        document.querySelector("#roomname").value = "";
+        document.querySelector("#reservationdate").value = "";
+        document.querySelector("#gamemaster").value = "";
+        document.querySelector("#managername").value = "";
+        document.querySelector("#playergroup").value = "";
+        alert("Reservation added!");
+        }
+
+    }
+
+    req.open("POST", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.send(JSON.stringify(reservation));
+
+
+}
+
+function allReservations(){
+var reservations = [];
+
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+
+if(this.readyState == 4 && this.status > 199 && this.status < 300){
+    document.querySelectorAll("#reservationTable tbody tr")
+                .forEach(function(element) {
+                        element.remove();
+                    }
+                );
+
+                reservations = JSON.parse(this.responseText);
+                let table = document.querySelector("#reservationTable tbody");
+
+                for(let i = 0; i < reservations.length; i++){
+                    let row = table.insertRow(table.rows.length);
+
+                    let indexCell = row.insertCell(0);
+                    indexCell.innerHTML = (i + 1);
+
+                    let roomNameCell = row.insertCell(1);
+                    roomNameCell.innerHTML = reservations[i].roomName;
+
+                     let reservationDateCell = row.insertCell(2);
+                    reservationDateCell.innerHTML = reservations[i].reservationDate;
+
+                     let gameMasterCell = row.insertCell(3);
+                    gameMasterCell.innerHTML = reservations[i].gameMaster;
+
+                    let managerNameCell = row.insertCell(4);
+                    managerNameCell.innerHTML = reservations[i].managerName;
+
+                    let playerGroupCell = row.insertCell(5);
+                    playerGroupCell.innerHTML = reservations[i].playerGroup;
+
+                }
+        }
+    };
+
+
+    xhttp.open("GET", "http://localhost:10080/EnnisA_P1/service/reservation/all", true);
+    xhttp.send();
+
+
+
+}
+
+
+function updateReservation(){
+
+    console.log("adding a new Reservation")
+
+    let newReservation = {};
+
+    newReservation.roomName = document.querySelector("#uproomName").value;
+    newReservation.reservationDate = document.querySelector("#upreservationDate").value;
+    newReservation.gameMaster = document.querySelector("#upgameMaster").value;
+    newReservation.managerName = document.querySelector("#upmanagerName").value;
+    newReservation.playerGroup = document.querySelector("#upplayerGroup").value;
+
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function(){
+        
+        if(this.readyState > 3){
+        document.querySelector("#uproomName").value = "";
+        document.querySelector("#upreservationDate").value = "";
+        document.querySelector("#upgameMaster").value = "";
+        document.querySelector("#upmanagerName").value = "";
+        document.querySelector("#upplayerGroup").value = "";
+        alert("Reservation Updated!");
+        }
+
+    }
+
+    req.open("PUT", "http://localhost:10080/EnnisA_P1/service/reservation", true);
+    req.setRequestHeader('Content-Type', 'application/json');
+    req.send(JSON.stringify(newReservation));
+
+
+}
+
+
+
+
+
+</script>
+
+</head>
+
+<body>
+
+    <div class="sticky-top topnav">
+    <span>
+        <header>
+            <div id="Welcome">
+            <h1>Escape Room Reservation System</h1>
+            <h3>Welcome Manager</h3>
+            </div>
+            
+        </header>
+    </span>
+    </div>
+
+
+    <div class="fluid-container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Controls">
+                    <h2 class="ControlName">Game Masters</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-12">
+                            <button type="button" class="btn btn-primary" id="GMGetAll" onclick="getAllGameMasters()" data-toggle="modal" data-target="#allGM" onclick="getAllGameMasters()">Get and modify a list of all GMs</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addGameMaster">Add a New GM</button>
+                                 </div>
+                            </div>
+                        </form>
+                    <form>
+<!--View All GMs Modal-->
+<div class="modal" id="allGM">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4>View All Game Masters</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                    <table class="table table-bordered table-striped mb-0" id="gameMasterTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Manager</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <br>
+                <br>
+
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onClick="getAllGameMasters()" >Update</button>
+
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Add GM Modal-->
+                        <div class="modal" id="addGameMasters">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4>Add a New Game Master</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <div class="modal-body">
+                                        <div class="container">
+                                            <form id="addGMForm">
+                                                <input type="text" name="nfirstname" id="nfirstname" placeholder="First Name"><br>
+                                                <input type="text" name="nlastname" id="nlastname" placeholder="Last Name"><br>
+                                                <input type="text" name="nmanagername" id="nmanagername" placeholder="Manager"><br>
+                                                <input type="button" onClick="addGameMaster()" value="Submit">
+
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+<!--            User Management-->
+            <div class="col-md-12">
+                <div class="Controls">
+                <h2 class="Management">Users</h2>
+                    <form>
+                        <div class="row">
+                            <div class="col-lg-12">
+                        <button type="button" class="btn btn-primary" id="UserGetAll" onclick="getAllUsers()" data-toggle="modal" data-target="#allUser" onclick="getAllUsers()">Get and modify a list of all Users</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#addUserModal">Add a new user</button>
+                    </div>
+                        </div>
+                    </form>
+                    <form>
+<!--View All User Modal-->
+<div class="modal" id="allUsers">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h4>View All Users</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                    <table class="table table-bordered table-striped mb-0" id="userTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">User Name</th>
+                                <th scope="col">First Name</th>
+                                <th scope="col">Last Name</th>
+                                <th scope="col">Password</th>
+                                <th scope="col">Family ID</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <form>
+                    <input type="number" id="deleteUserIndex" placeholder="Enter the row # of the User you want to delete"><br>
+                    <button type="button" class="btn btn-primary" onclick="deleteUser()">Delete User</button>
+
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onClick="getAllUser()">Update</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+                    </form>
+                </div>
+            </div>
+<!--                    Modal For adding a new User.-->
+
+                    <div class="modal" id="addUserModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Add a new User</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <input type="text" name="rusername" id="rusername" placeholder="User Name"><br>
+                                        <input type="text" name="rfirstname" id="rfirstname" placeholder="First Name"><br>
+                                        <input type="text" name="rlastname" id="rlastname" placeholder="Last Name"><br>
+                                        <input type="text" name="rpasscode" id="rpasscode" placeholder="Password"><br>
+                                        <input type="number" name="rfamilyid" id="rfamilyid" placeholder="Player Group"><br>
+                                        <input type="button" onClick="addUser()" value="Submit">
+                                    </div>
+                                </div>
+
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--            Reservation Management-->
+            <div class="col-md-12">
+            <div class="Controls">
+                <h2>Reservations</h2>
+                <button type="button" class="btn btn-primary" id="ReservationGetAll" onclick="allReservations()" data-toggle="modal" data-target="#viewAllReservations" onclick="getAllUsers()">Get and modify a list of all Reservations</button>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#newReservation">Add a New Reservation</button>
+                <form method="get" action="/EnnisA_P1/login">
+
+
+
+
+<!--View All Reservations Modal-->
+                    <div class="modal" id="viewAllReservations">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4>All Reservations</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                                        <table class="table table-bordered table-striped mb-0" id="reservationTable">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Room Name</th>
+                                                    <th scope="col">Reservation Date</th>
+                                                    <th scope="col">Game Master</th>
+                                                    <th scope="col">Manager Name</th>
+                                                    <th scope="col">Player Group</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <br>
+                                    <form>
+                                        <input type="number" id="deleteReservationIndex" placeholder="Enter the row number"><br>
+                                        <button type="button" class="btn btn-primary" onclick="deleteReservation()">Delete Reservation</button>
+                                    </form>
+                                    <br>
+                                    <br>
+                                    <button type="button" class="btn btn-primary" onclick="updateReservation()">Update Reservation</button>
+
+                                        <div class="col-12">
+                                            <input type="number" id="updateReservationIndex" placeholder="Enter row number"><br>
+                                            <input type="text" name="uproomName" id="uproomName" placeholder="Room Name"><br>
+                                            <input type="number" name="upreservationDate" id="upreservationDate" placeholder="MMDDYYYY"><br>
+                                            <input type="text" name="upgameMaster" id="upgameMaster" placeholder="Game Master Name"><br>
+                                            <input type="text" name="upmanagerName" id="upmanagerName" placeholder="Manager Name"><br>
+                                            <input type="text" name="upplayerGroup" id="upplayerGroup" placeholder="Player Group"><br>
+                                            <input type="button" onClick="updateReservation()" value="Submit">
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <input type="button" class="btn btn-primary" onClick="allReservations()" value="update">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+<!--Add New Reservation Modal-->
+                    <div class="modal" id="newReservation">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                    <h4>New Reservation</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <input type="text" name="roomname" id="roomname" placeholder="Room Name"><br>
+                                        <input type="number" name="reservationdate" id="reservationdate" placeholder="MMDDYYYY"><br>
+                                        <input type="text" name="gamemaster" id="gamemaster" placeholder="Game Master Name"><br>
+                                        <input type="text" name="managername" id="managername" placeholder="Manager Name"><br>
+                                        <input type="text" name="playergroup" id="playergroup" placeholder="Player Group"><br>
+                                        <input type="button" onClick="addReservation()" value="Submit">
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,125 @@
+
+
+
+
+body{
+
+background-color: purple;
+background-size: cover;
+
+
+}
+
+.main-section{
+
+margin: 0 auto;
+margin-top: 130px;
+padding: 0;
+
+}
+
+.modal-content {
+
+    background-color: purple;
+    padding: 0 18px;
+    border-radius: 18px;
+    width: 750px;
+
+}
+
+.user-img img{
+    height: 120px;
+    width: 120px;
+}
+.user-img{
+
+margin-top: -60px;
+margin-bottom: 45px;
+
+}
+
+.form-group {
+
+    margin-bottom: 25px;
+
+}
+
+.form-group input {
+
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    margin: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding-left: 54px;
+
+}
+
+.form-group button {
+    width: 40%;
+    margin: 5px 0 25px;
+
+
+
+}
+
+.forgot{
+    padding: 5px 0 25px;
+}
+
+
+.Management h5{
+
+    text-align: center;
+
+
+}
+
+
+#Welcome{
+    position: sticky;
+    background-color: #519cc5;
+    text-align: center;
+    color: white;
+
+}
+
+
+.Controls{
+
+margin: auto;
+border-spacing: 50px;
+padding: 50px 0px;
+background-color: #ffffff70;
+margin-top: 50px;
+
+
+}
+
+
+
+
+#medWarning{
+background-color: red;
+} 
+
+table{
+    background-color: #green;
+}
+
+.ControlName{
+
+    color: #000000;
+    
+}
+
+#backButton{
+    margin-top: -60px;
+    margin-bottom: -100px;
+    text-align: left;
+    border-color: #519cc5;
+    color: #ffffff;
+    background-color: #519cc5;
+    
+}

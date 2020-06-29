@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:17 -0400] "GET /EnnisA_P1 HTTP/1.1" 302 - http-bio-10080-exec-1 0
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:17 -0400] "GET /EnnisA_P1/ HTTP/1.1" 304 - http-bio-10080-exec-3 8
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:17 -0400] "GET /EnnisA_P1/webpage.css HTTP/1.1" 304 - http-bio-10080-exec-4 3
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:17 -0400] "GET /EnnisA_P1/images/puzzlebackground.png HTTP/1.1" 304 - http-bio-10080-exec-5 3
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:18 -0400] "GET /EnnisA_P1/index.html? HTTP/1.1" 200 1487 http-bio-10080-exec-6 5
+0:0:0:0:0:0:0:1 - - [29/Jun/2020:09:23:31 -0400] "GET /EnnisA_P1/login?username=admin&password=test HTTP/1.1" 200 - http-bio-10080-exec-7 245

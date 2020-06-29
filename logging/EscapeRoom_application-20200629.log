@@ -1,0 +1,845 @@
+2020-06-29 05:51:55.849 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 05:52:03.178 [http-bio-10080-exec-4] INFO  com.revature.services.ConnectionService - Successful master Connection to Database created.
+2020-06-29 05:52:03.387 [http-bio-10080-exec-4] INFO  com.revature.services.ConnectionService - Successful Connection to Database!
+2020-06-29 05:52:03.387 [http-bio-10080-exec-4] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 05:52:03.441 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 05:52:03.446 [http-bio-10080-exec-4] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 05:52:07.997 [http-bio-10080-exec-5] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 05:52:08.044 [http-bio-10080-exec-5] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 05:52:08.055 [http-bio-10080-exec-5] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 05:57:03.181 [http-bio-10080-exec-7] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 05:57:03.219 [http-bio-10080-exec-7] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 05:57:03.226 [http-bio-10080-exec-7] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 05:58:08.477 [http-bio-10080-exec-9] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 05:58:08.510 [http-bio-10080-exec-9] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 05:58:08.519 [http-bio-10080-exec-9] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 05:58:22.788 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 05:58:22.821 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 05:58:22.822 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 05:58:22.825 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:00:27.730 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:00:31.561 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:00:31.595 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:00:31.596 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:00:31.596 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:00:31.596 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:00:31.599 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:01:29.757 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:01:34.704 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:01:34.737 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:01:34.737 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:01:34.737 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:01:34.737 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:01:34.737 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:01:34.738 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:01:34.741 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:01:59.403 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:01:59.438 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:01:59.439 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:01:59.439 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:01:59.439 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:01:59.439 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:01:59.439 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:01:59.442 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:02:01.582 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:02:04.796 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:02:04.829 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:02:04.833 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:02:07.331 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:02:07.364 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:02:07.364 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:02:07.364 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:02:07.364 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:02:07.364 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:02:07.365 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:02:07.365 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:02:07.365 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:02:07.365 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:02:07.365 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:02:07.365 [http2020-06-29 06:06:47.395 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:06:50.510 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful master Connection to Database created.
+2020-06-29 06:06:50.683 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful Connection to Database!
+2020-06-29 06:06:50.683 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:06:50.732 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:06:50.733 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:06:50.738 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:07:32.200 [http-bio-10080-exec-4] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 06:07:32.239 [http-bio-10080-exec-4] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 06:07:32.248 [http-bio-10080-exec-4] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 06:11:52.401 [http-bio-10080-exec-6] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:11:54.395 [http-bio-10080-exec-8] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 06:11:54.432 [http-bio-10080-exec-8] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 06:11:54.441 [http-bio-10080-exec-8] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 06:16:40.914 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:16:40.950 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:16:40.950 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:16:40.950 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:16:40.951 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:16:40.954 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:18:02.979 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:18:03.015 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:18:03.016 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:18:03.016 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:18:03.016 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:18:03.016 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:18:03.016 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:18:03.019 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:18:13.868 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:18:13.908 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:18:13.909 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:18:13.909 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:18:13.909 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:18:13.912 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:18:18.740 [http-bio-10080-exec-3] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 06:18:18.776 [http-bio-10080-exec-3] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 06:18:18.786 [http-bio-10080-exec-3] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 06:18:32.702 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:18:32.739 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:18:32.740 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:18:32.740 [http-bio-10080-exec-3] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:18:32.743 [http-bio-10080-exec-3] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:21:09.292 [http-bio-10080-exec-8] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:21:15.183 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:21:15.218 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:21:15.222 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:24:00.949 [http-bio-10080-exec-10] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:24:14.575 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Attempting to add a User.
+2020-06-29 06:24:14.575 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Users.
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:24:14.609 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:24:14.610 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:24:14.610 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Inserting User into database.
+2020-06-29 06:24:14.659 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Successfully Added a User.
+2020-06-29 06:25:20.499 [http-bio-10080-exec-6] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:25:20.533 [http-bio-10080-exec-6] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:25:20.537 [http-bio-10080-exec-6] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:25:58.390 [http-bio-10080-exec-6] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 06:25:58.424 [http-bio-10080-exec-6] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 06:25:58.433 [http-bio-10080-exec-6] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 06:28:28.272 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:28:30.222 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:28:30.257 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:28:30.261 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:29:29.292 [http-bio-10080-exec-1] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 06:29:29.328 [http-bio-10080-exec-1] ERROR com.revature.dao.GameMasterDAOImplementation - Error getting a list of all GameMasters.
+2020-06-29 06:29:29.337 [http-bio-10080-exec-1] ERROR com.revature.dao.GameMasterDAOImplementation - Returning a null list of all GameMasters.
+2020-06-29 06:29:36.092 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:29:36.129 [http-bio-10080-exec-1] INFO  com.revature.mod2020-06-29 06:42:58.576 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:43:02.114 [http-bio-10080-exec-4] INFO  com.revature.services.ConnectionService - Successful master Connection to Database created.
+2020-06-29 06:43:02.306 [http-bio-10080-exec-4] INFO  com.revature.services.ConnectionService - Successful Connection to Database!
+2020-06-29 06:43:02.306 [http-bio-10080-exec-4] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:43:02.355 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:43:02.356 [http-bio-10080-exec-4] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:43:02.361 [http-bio-10080-exec-4] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:43:45.400 [http-bio-10080-exec-5] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:43:45.435 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:43:45.435 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:43:45.435 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:43:45.435 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:43:45.436 [http-bio-10080-exec-5] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:43:45.440 [http-bio-10080-exec-5] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:46:31.356 [http-bio-10080-exec-7] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:47:22.559 [http-bio-10080-exec-9] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:48:02.445 [http-bio-10080-exec-10] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:48:05.604 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 06:48:05.637 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 06:48:05.637 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 06:48:05.637 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 06:48:05.637 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 06:48:05.637 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 06:48:05.638 [http-bio-10080-exec-10] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 06:48:05.642 [http-bio-10080-exec-10] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 06:48:08.646 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 06:48:08.678 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.679 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:08.683 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 06:48:27.478 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 06:48:27.478 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 06:48:27.478 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.510 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.511 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.511 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:27.511 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 06:48:27.549 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 06:48:30.335 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.367 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:48:30.371 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 06:53:31.527 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.561 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:31.564 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 06:53:41.327 [http-bio-10080-exec-7] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 06:53:43.648 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.683 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 06:53:43.687 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:01:48.527 [http-bio-10080-exec-5] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 07:01:48.562 [http-bio-10080-exec-5] INFO  com.revature.models.GameMaster - New Game Master Created: Buddy guybro Aj
+2020-06-29 07:01:48.562 [http-bio-10080-exec-5] INFO  com.revature.models.GameMaster - New Game Master Created: Friend guybro Aj
+2020-06-29 07:01:48.562 [http-bio-10080-exec-5] INFO  com.revature.models.GameMaster - New Game Master Created: Pal guybro Jab
+2020-06-29 07:01:48.562 [http-bio-10080-exec-5] INFO  com.revature.models.GameMaster - New Game Master Created: Steve guybro Jab
+2020-06-29 07:01:48.563 [http-bio-10080-exec-5] INFO  com.revature.dao.GameMasterDAOImplementation - Successfully returned a list of all GameMasters.
+2020-06-29 07:02:54.499 [http-bio-10080-exec-6] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:03:04.095 [http-bio-10080-exec-6] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 07:03:04.129 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Buddy guybro Aj
+2020-06-29 07:03:04.129 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Friend guybro Aj
+2020-06-29 07:03:04.129 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Pal guybro Jab
+2020-06-29 07:03:04.129 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Steve guybro Jab
+2020-06-29 07:03:04.130 [http-bio-10080-exec-6] INFO  com.revature.dao.GameMasterDAOImplementation - Successfully returned a list of all GameMasters.
+2020-06-29 07:03:50.075 [http-bio-10080-exec-6] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:03:51.337 [http-bio-10080-exec-6] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 07:03:51.371 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Buddy guybro Aj
+2020-06-29 07:03:51.371 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Friend guybro Aj
+2020-06-29 07:03:51.371 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Pal guybro Jab
+2020-06-29 07:03:51.371 [http-bio-10080-exec-6] INFO  com.revature.models.GameMaster - New Game Master Created: Steve guybro Jab
+2020-06-29 07:03:51.372 [http-bio-10080-exec-6] INFO  com.revature.dao.GameMasterDAOImplementation - Successfully returned a list of all GameMasters.
+2020-06-29 07:07:24.936 [http-bio-10080-exec-8] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:07:28.474 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 07:07:28.508 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 07:07:28.512 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 07:08:27.087 [http-bio-10080-exec-8] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:08:28.935 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 07:08:28.969 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 07:08:28.970 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 07:08:28.970 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 07:08:28.970 [http-bio-10080-exec-8] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 07:08:28.973 [http-bio-10080-exec-8] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 07:08:36.199 [http-bio-10080-exec-8] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:12:01.228 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:12:03.055 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 07:12:03.089 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 07:12:03.092 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 07:12:16.400 [http-bio-10080-exec-1] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 07:12:16.434 [http-bio-10080-exec-1] INFO  com.revature.models.GameMaster - New Game Master Created: Buddy guybro Aj
+2020-06-29 07:12:16.434 [http-bio-10080-exec-1] INFO  com.revature.models.GameMaster - New Game Master Created: Friend guybro Aj
+2020-06-29 07:12:16.434 [http-bio-10080-exec-1] INFO  com.revature.models.GameMaster - New Game Master Created: Pal guybro Jab
+2020-06-29 07:12:16.435 [http-bio-10080-exec-1] INFO  com.revature.models.GameMaster - New Game Master Created: Steve guybro Jab
+2020-06-29 07:12:16.435 [http-bio-10080-exec-1] INFO  com.revature.dao.GameMasterDAOImplementation - Successfully returned a list of all GameMasters.
+2020-06-29 07:12:39.859 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:12:40.963 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Attempting to get a list of all Residents.
+2020-06-29 07:12:40.996 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: happy and you know 0
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hello hello yes ue 0
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dannyboy danny boy hrefbuygif 0
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: ajemon aj eni guyyguy 1
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: lbust0 Linc Bust c2il9Jgv0g 1
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dhourihane1 Dougy Hourihane Bv5wTZ 1
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dkindle5 Derry Kindle 3XKvkE4 1
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: dgremane3 Dianna Gremane 6Zif9HcCxVS 2
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: harnaud2 Homerus Arnaud Irx6KIolGCrg 2
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: hhazzard7 Hillary Hazzard ZaBgYyHwTC 2
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: awaker4 Arnold Waker q4xUO12T 3
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: peudall8 Pippa Eudall uqv0eq1l 3
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: bsalvati9 Bernadine Salvati MNRhW0YFzxes 3
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: sadsa sadas sadas saddas 2
+2020-06-29 07:12:40.997 [http-bio-10080-exec-1] INFO  com.revature.models.User - New User Created: MickeyM Micheal Monessat Mamama 0
+2020-06-29 07:12:41.001 [http-bio-10080-exec-1] INFO  com.revature.dao.UserDAOImplementaion - Successfully returned a list of all Users.
+2020-06-29 07:12:50.084 [http-bio-10080-exec-1] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.118 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:12:50.121 [http-bio-10080-exec-1] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:12:52.891 [h2020-06-29 07:36:46.823 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:37:02.942 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful master Connection to Database created.
+2020-06-29 07:37:03.140 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful Connection to Database!
+2020-06-29 07:37:03.140 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to add a Reservation.
+2020-06-29 07:37:03.140 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:37:03.190 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Inserting Reservation into database.
+2020-06-29 07:37:03.237 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Added a Reservation.
+2020-06-29 07:37:10.750 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:37:10.786 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:37:10.786 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:37:10.786 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:37:10.786 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:10.787 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Framed 7052020 Pal Aj Bust
+2020-06-29 07:37:10.791 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:37:17.967 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 07:37:17.967 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 07:37:17.967 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 7052020 Pal Aj Bust
+2020-06-29 07:37:18.003 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:37:18.047 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 07:37:32.706 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:37:32.741 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:37:32.742 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Framed 7052020 Pal Aj Bust
+2020-06-29 07:37:32.746 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:38:12.390 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 07:38:12.391 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 07:38:12.391 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:38:12.425 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 7052020 Pal Aj Bust
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:38:12.426 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Error Removed a Reservation.
+2020-06-29 07:47:54.611 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 07:47:54.611 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 07:47:54.611 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:47:54.644 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 7052020 Pal Aj Bust
+2020-06-29 07:47:54.645 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:47:54.683 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 07:47:58.278 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:47:58.311 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:47:58.311 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:47:58.311 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:47:58.311 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.312 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: null 0 null null null
+2020-06-29 07:47:58.315 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:50:38.550 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:50:38.583 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:50:38.583 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:50:38.583 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:50:38.584 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:50:38.584 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:50:38.584 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:50:38.586 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:51:59.606 [http-bio-10080-exec-5] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:52:07.488 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:52:07.521 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:52:07.523 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:55:56.969 [http-bio-10080-exec-9] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:56:00.696 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:56:00.737 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:56:00.739 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:56:03.885 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 07:56:03.885 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:56:03.920 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:56:30.032 [http-bio-10080-exec-1] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 07:56:30.032 [http-bio-10080-exec-1] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:56:30.066 [http-bio-10080-exec-1] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:56:30.067 [http-bio-10080-exec-1] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 07:59:21.584 [http-bio-10080-exec-3] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 07:59:23.411 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 07:59:23.411 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 07:59:23.445 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 07:59:23.446 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:02:26.275 [http-bio-10080-exec-8] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 08:02:43.389 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:02:43.423 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 08:02:43.423 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 08:02:43.423 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 08:02:43.423 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:02:43.423 [ht2020-06-29 08:10:21.832 [http-bio-10080-exec-1] INFO  com.revature.servlets.LoginServlet - An Admin Level User Logged In
+2020-06-29 08:10:24.956 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful master Connection to Database created.
+2020-06-29 08:10:25.123 [http-bio-10080-exec-3] INFO  com.revature.services.ConnectionService - Successful Connection to Database!
+2020-06-29 08:10:25.123 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:10:25.171 [http-bio-10080-exec-3] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:10:25.174 [http-bio-10080-exec-3] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:10:34.956 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 08:10:34.956 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:10:34.990 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5152020 Pal Jab Bust
+2020-06-29 08:10:34.990 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 08:10:34.990 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 08:10:34.991 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:10:34.991 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:10:34.991 [http-bio-10080-exec-4] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:10:34.991 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:10:35.034 [http-bio-10080-exec-4] INFO  com.revature.dao.ReservationDAOImplementation - Successful Updating a Reservation.
+2020-06-29 08:10:43.380 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 08:10:43.380 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Ward 21 5252020 Friend Aj Bust
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 0   
+2020-06-29 08:10:43.414 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:10:43.450 [http-bio-10080-exec-5] INFO  com.revature.dao.ReservationDAOImplementation - Successful Updating a Reservation.
+2020-06-29 08:10:57.773 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to Update a Reservation.
+2020-06-29 08:10:57.774 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Framed 5102020 Buddy Aj Gremane
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 0   
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:10:57.806 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:10:57.844 [http-bio-10080-exec-6] INFO  com.revature.dao.ReservationDAOImplementation - Successful Updating a Reservation.
+2020-06-29 08:11:01.610 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 0   
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:01.642 [http-bio-10080-exec-7] INFO  com.revature.models.Reservation - New Reservation: Framed 0   
+2020-06-29 08:11:01.644 [http-bio-10080-exec-7] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:10.489 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 08:11:10.489 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 08:11:10.489 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 0   
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.models.Reservation - New Reservation: Framed 0   
+2020-06-29 08:11:10.521 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:10.558 [http-bio-10080-exec-8] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 08:11:13.960 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 08:11:13.961 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 08:11:13.961 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.models.Reservation - New Reservation: Framed 0   
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:13.993 [http-bio-10080-exec-9] INFO  com.revature.dao.ReservationDAOImplementation - Error Removed a Reservation.
+2020-06-29 08:11:16.363 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:16.395 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:16.395 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:16.395 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:16.396 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:16.396 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 0   
+2020-06-29 08:11:16.397 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:22.361 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 08:11:22.361 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 08:11:22.361 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 0   
+2020-06-29 08:11:22.393 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:22.428 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 08:11:24.404 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:24.436 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:24.436 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:24.437 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:24.437 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:24.438 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:26.961 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to remove a Reservation.
+2020-06-29 08:11:26.961 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Deleting Reservation from the database.
+2020-06-29 08:11:26.962 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:26.994 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:26.994 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:26.994 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:26.994 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation:  0   
+2020-06-29 08:11:26.994 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:27.029 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully Removed a Reservation.
+2020-06-29 08:11:29.812 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:29.845 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:29.845 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:29.845 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:29.846 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:42.829 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Attempting to get a list of all Reservations.
+2020-06-29 08:11:42.861 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Smoke and Mirrors 6012020 Steve Jab Waker
+2020-06-29 08:11:42.862 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Rum Hangover 5122020 Pal Jab Bust
+2020-06-29 08:11:42.862 [http-bio-10080-exec-10] INFO  com.revature.models.Reservation - New Reservation: Framed 10052020 Pal Aj Kent
+2020-06-29 08:11:42.863 [http-bio-10080-exec-10] INFO  com.revature.dao.ReservationDAOImplementation - Successfully returned a list of all Reservations.
+2020-06-29 08:11:49.960 [http-bio-10080-exec-10] INFO  com.revature.dao.GameMasterDAOImplementation - Attempting to get a list of all GameMasters.
+2020-06-29 08:11:49.994 [http-bio-10080-exec-10] INFO  com.revature.models.GameMaster - New Game Master Created: Buddy guybro Aj
+2020-06-29 08:11:49.994 [http-bio-10080-exec-10] INFO  com.revature.models.GameMaster - New Game Master Created: Friend guybro Aj
+2020-06-29 08:11:49.994 [http-bio-10080-exec-10] INFO  com.revature.models.GameMaster - New Game Master Created: Pal guybro Jab
+2020-06-29 08:11:49.994 [http-bio-10080-exec-10] INFO  com.revature.models.GameMaster - New Game Master Created: Steve guybro Jab
+2020-06-29 08:11:49.995 [http-bio-10080-exec-10] INFO  com.revature.dao.GameMasterDAOImplementation - Succe
